@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 # imports do pacote (relativos ao "src")
 from .models import db
+from .models.reservation import Reservation
 from .routes.reservation import reservation_bp
 
 # Carregar variáveis de ambiente
