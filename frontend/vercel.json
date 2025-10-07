@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "https://bike-reservas-backend.onrender.com/api/:path*" }
-  ]
-}
